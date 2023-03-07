@@ -15,8 +15,8 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: todo
-        image: joymiah/dolist:hj
+      - name: todo_app
+        image: joymiah/dolist:${IMAGE_NAME}
         ports:
         - containerPort: 8000
 

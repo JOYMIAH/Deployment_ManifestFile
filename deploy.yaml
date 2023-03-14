@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: todo_app
-        image: joymiah1/todo_app:${BUILD_NUMBER}
+        image: joymiah1/todo_app:55
         ports:
         - containerPort: 8000
 
